@@ -228,6 +228,42 @@
       "skills": [
         "skills/kubernetes-best-practices"
       ]
+    },
+    {
+      "name": "python-toolkit",
+      "source": "./plugins/python-toolkit",
+      "description": "Python development toolkit with UV for fast package management, project structure, and dependency management. Includes python expert agent for strategic Python architecture decisions.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "python",
+        "uv",
+        "packaging",
+        "pip-tools",
+        "dependency-management"
+      ],
+      "tags": [
+        "tier:tech",
+        "tech:python"
+      ],
+      "category": "Python Development",
+      "strict": false,
+      "commands": [
+        "commands/setup-project.md"
+      ],
+      "agents": [
+        "agents/python-expert.md"
+      ],
+      "skills": [
+        "skills/python-packaging",
+        "skills/dependency-manager"
+      ]
     }
   ]
 }
