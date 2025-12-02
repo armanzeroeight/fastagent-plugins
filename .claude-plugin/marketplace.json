@@ -590,6 +590,80 @@
         "skills/secrets-detector",
         "skills/dependency-audit"
       ]
+    },
+    {
+      "name": "documentation-toolkit",
+      "source": "./plugins/documentation-toolkit",
+      "description": "Comprehensive documentation toolkit for README generation, API documentation, and changelog management. Includes docs architect agent for strategic documentation planning.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "documentation",
+        "readme",
+        "api-docs",
+        "changelog",
+        "technical-writing"
+      ],
+      "tags": [
+        "tier:essential",
+        "role:developer"
+      ],
+      "category": "Documentation",
+      "strict": false,
+      "commands": [
+        "commands/generate-docs.md"
+      ],
+      "agents": [
+        "agents/docs-architect.md"
+      ],
+      "skills": [
+        "skills/readme-generator",
+        "skills/api-docs-generator",
+        "skills/changelog-manager"
+      ]
+    },
+    {
+      "name": "code-quality-toolkit",
+      "source": "./plugins/code-quality-toolkit",
+      "description": "Comprehensive code quality toolkit for detecting code smells, analyzing complexity, and planning refactoring. Includes quality architect agent for strategic technical debt management.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "code-quality",
+        "refactoring",
+        "code-smells",
+        "complexity",
+        "technical-debt"
+      ],
+      "tags": [
+        "tier:essential",
+        "role:developer"
+      ],
+      "category": "Code Quality",
+      "strict": false,
+      "commands": [
+        "commands/quality-check.md"
+      ],
+      "agents": [
+        "agents/quality-architect.md"
+      ],
+      "skills": [
+        "skills/code-smell-detector",
+        "skills/complexity-analyzer",
+        "skills/refactoring-advisor"
+      ]
     }
   ]
 }
