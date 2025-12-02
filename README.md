@@ -71,17 +71,20 @@ Once installed, agents and skills activate automatically based on your work cont
 
 ## Available Plugins
 
-### 🌟 Essential Tier (3 plugins)
+### 🌟 Essential Tier (6 plugins)
 
 | Plugin | Description | Agents | Skills | Commands |
 |--------|-------------|--------|--------|----------|
 | **testing-toolkit** | Comprehensive testing toolkit for test strategy, coverage analysis, and test data generation | Test Strategist | Test Coverage Analyzer, Test Data Generator | `/run-tests`, `/coverage-report` |
 | **git-workflow-toolkit** | Git workflow and branching strategy toolkit with commit message generation and branch management | Git Expert | Commit Message Generator, Branch Strategy Advisor | `/smart-commit`, `/branch-cleanup` |
 | **developer-toolkit** | Essential development tools for code review, debugging, and refactoring | Code Reviewer, Debugger, Refactoring Architect | Code Review Practices | `/quick-review`, `/debug-trace` |
+| **security-toolkit** | Comprehensive security toolkit for vulnerability scanning, secrets detection, and dependency auditing | Security Architect | Vulnerability Scanner, Secrets Detector, Dependency Audit | `/security-scan` |
+| **documentation-toolkit** | Comprehensive documentation toolkit for README generation, API documentation, and changelog management | Docs Architect | README Generator, API Docs Generator, Changelog Manager | `/generate-docs` |
+| **code-quality-toolkit** | Comprehensive code quality toolkit for detecting code smells, analyzing complexity, and planning refactoring | Quality Architect | Code Smell Detector, Complexity Analyzer, Refactoring Advisor | `/quality-check` |
 
 ---
 
-### 🔧 Tech Tier (8 plugins)
+### 🔧 Tech Tier (18 plugins)
 
 | Plugin | Description | Agents | Skills | Commands |
 |--------|-------------|--------|--------|----------|
@@ -91,8 +94,18 @@ Once installed, agents and skills activate automatically based on your work cont
 | **api-toolkit** | API design toolkit for REST with endpoint design and OpenAPI documentation | API Architect | REST API Designer, API Documentation Generator | `/generate-openapi` |
 | **database-toolkit** | Database design toolkit for schema modeling and query optimization | Database Architect | Schema Designer, Query Optimizer | `/analyze-query` |
 | **aws-toolkit** | AWS cloud toolkit for service selection, cost optimization, and security | AWS Architect | AWS Cost Optimizer, Security Group Analyzer | `/estimate-cost` |
-| **terraform-toolkit** | Complete Terraform IaC toolkit with module scaffolding and state management | IaC Architect | Module Scaffolder, State Manager, Cost Estimator, Documentation Generator, Dependency Analyzer, Upgrade Assistant | - |
-| **kubernetes-toolkit** | Kubernetes container orchestration toolkit for production-ready manifests | K8s Operations Specialist | Kubernetes Best Practices | - |
+| **terraform-toolkit** | Complete Terraform IaC toolkit with module scaffolding and state management | Terraform Expert | Module Scaffolder, State Manager, Cost Estimator, Documentation Generator, Dependency Analyzer, Upgrade Assistant | - |
+| **kubernetes-toolkit** | Kubernetes container orchestration toolkit for production-ready manifests | K8s Expert | Kubernetes Best Practices | - |
+| **nginx-toolkit** | Nginx web server toolkit for load balancing, SSL/TLS configuration, and performance optimization | Config Architect | Load Balancer, SSL Helper | `/optimize-nginx` |
+| **cloudformation-toolkit** | CloudFormation infrastructure as code toolkit for stack design and template validation | CFN Architect | Stack Designer, Template Validator | `/validate-template` |
+| **ansible-toolkit** | Ansible automation toolkit for playbook design, role creation, and inventory management | Playbook Architect | Role Builder, Inventory Manager | `/lint-playbook` |
+| **azure-toolkit** | Azure cloud toolkit for cost optimization, ARM templates, and infrastructure design | Azure Architect | Azure Cost Optimizer, ARM Template Helper | `/estimate-azure-cost` |
+| **gcp-toolkit** | Google Cloud Platform toolkit for cost optimization, Cloud Build configuration, and infrastructure design | GCP Architect | GCP Cost Optimizer, Cloud Build Helper | `/estimate-gcp-cost` |
+| **dbt-toolkit** | dbt data transformation toolkit for model building, testing, and documentation | DBT Architect | Model Builder, Test Generator | `/validate-dbt` |
+| **github-actions-toolkit** | GitHub Actions CI/CD toolkit for workflow design, custom action creation, and matrix optimization | Workflow Architect | Action Builder, Matrix Optimizer | `/optimize-workflow` |
+| **react-native-toolkit** | React Native mobile development toolkit for native module integration and performance optimization | RN Architect | Native Module Helper, Performance Optimizer | `/create-native-module` |
+| **nextjs-toolkit** | Next.js framework toolkit for rendering strategies (SSR/SSG/ISR) and App Router patterns | Next.js Expert | SSR/SSG Advisor, App Router Helper | `/create-page` |
+| **go-toolkit** | Go programming language toolkit for concurrency patterns, error handling, and idiomatic Go practices | Go Expert | Goroutine Patterns, Error Handling | `/check-go` |
 
 ---
 
