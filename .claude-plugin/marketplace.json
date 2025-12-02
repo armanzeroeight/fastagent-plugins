@@ -553,6 +553,43 @@
         "skills/etl-designer",
         "skills/data-quality-checker"
       ]
+    },
+    {
+      "name": "security-toolkit",
+      "source": "./plugins/security-toolkit",
+      "description": "Comprehensive security toolkit for vulnerability scanning, secrets detection, and dependency auditing. Includes security architect agent for strategic security assessment and remediation planning.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Arman Nourifar",
+        "url": "https://github.com/armanzeroeight"
+      },
+      "homepage": "https://gofastagent.com",
+      "repository": "https://github.com/armanzeroeight/agents-skills",
+      "license": "MIT",
+      "keywords": [
+        "security",
+        "vulnerability-scanning",
+        "secrets-detection",
+        "dependency-audit",
+        "owasp"
+      ],
+      "tags": [
+        "tier:essential",
+        "role:developer"
+      ],
+      "category": "Security",
+      "strict": false,
+      "commands": [
+        "commands/security-scan.md"
+      ],
+      "agents": [
+        "agents/security-architect.md"
+      ],
+      "skills": [
+        "skills/vulnerability-scanner",
+        "skills/secrets-detector",
+        "skills/dependency-audit"
+      ]
     }
   ]
 }
