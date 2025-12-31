@@ -35,15 +35,15 @@
       "category": "Testing & Quality",
       "strict": false,
       "commands": [
-        "commands/run-tests.md",
-        "commands/coverage-report.md"
+        "./commands/run-tests.md",
+        "./commands/coverage-report.md"
       ],
       "agents": [
-        "agents/test-strategist.md"
+        "./agents/test-strategist.md"
       ],
       "skills": [
-        "skills/test-coverage-analyzer",
-        "skills/test-data-generator"
+        "./skills/test-coverage-analyzer",
+        "./skills/test-data-generator"
       ]
     },
     {
@@ -73,15 +73,15 @@
       "category": "Version Control",
       "strict": false,
       "commands": [
-        "commands/smart-commit.md",
-        "commands/branch-cleanup.md"
+        "./commands/smart-commit.md",
+        "./commands/branch-cleanup.md"
       ],
       "agents": [
-        "agents/git-expert.md"
+        "./agents/git-expert.md"
       ],
       "skills": [
-        "skills/commit-message-generator",
-        "skills/branch-strategy-advisor"
+        "./skills/commit-message-generator",
+        "./skills/branch-strategy-advisor"
       ]
     },
     {
@@ -110,14 +110,14 @@
       "category": "Containerization",
       "strict": false,
       "commands": [
-        "commands/optimize-image.md"
+        "./commands/optimize-image.md"
       ],
       "agents": [
-        "agents/container-architect.md"
+        "./agents/container-architect.md"
       ],
       "skills": [
-        "skills/dockerfile-optimizer",
-        "skills/image-security-scanner"
+        "./skills/dockerfile-optimizer",
+        "./skills/image-security-scanner"
       ]
     },
     {
@@ -146,16 +146,16 @@
       "category": "Development",
       "strict": false,
       "commands": [
-        "commands/quick-review.md",
-        "commands/debug-trace.md"
+        "./commands/quick-review.md",
+        "./commands/debug-trace.md"
       ],
       "agents": [
-        "agents/code-reviewer.md",
-        "agents/debugger.md",
-        "agents/refactoring-architect.md"
+        "./agents/code-reviewer.md",
+        "./agents/debugger.md",
+        "./agents/refactoring-architect.md"
       ],
       "skills": [
-        "skills/code-review-practices"
+        "./skills/code-review-practices"
       ]
     },
     {
@@ -185,15 +185,15 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "agents/terraform-expert.md"
+        "./agents/terraform-expert.md"
       ],
       "skills": [
-        "skills/terraform-module-scaffolder",
-        "skills/terraform-state-manager",
-        "skills/terraform-cost-estimator",
-        "skills/terraform-documentation-generator",
-        "skills/terraform-dependency-analyzer",
-        "skills/terraform-upgrade-assistant"
+        "./skills/terraform-module-scaffolder",
+        "./skills/terraform-state-manager",
+        "./skills/terraform-cost-estimator",
+        "./skills/terraform-documentation-generator",
+        "./skills/terraform-dependency-analyzer",
+        "./skills/terraform-upgrade-assistant"
       ]
     },
     {
@@ -223,10 +223,10 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "agents/k8s-expert.md"
+        "./agents/k8s-expert.md"
       ],
       "skills": [
-        "skills/kubernetes-best-practices"
+        "./skills/kubernetes-best-practices"
       ]
     },
     {
@@ -255,14 +255,14 @@
       "category": "Python Development",
       "strict": false,
       "commands": [
-        "commands/setup-project.md"
+        "./commands/setup-project.md"
       ],
       "agents": [
-        "agents/python-expert.md"
+        "./agents/python-expert.md"
       ],
       "skills": [
-        "skills/python-packaging",
-        "skills/dependency-manager"
+        "./skills/python-packaging",
+        "./skills/dependency-manager"
       ]
     },
     {
@@ -291,14 +291,14 @@
       "category": "React Development",
       "strict": false,
       "commands": [
-        "commands/create-component.md"
+        "./commands/create-component.md"
       ],
       "agents": [
-        "agents/react-architect.md"
+        "./agents/react-architect.md"
       ],
       "skills": [
-        "skills/component-patterns",
-        "skills/state-management-advisor"
+        "./skills/component-patterns",
+        "./skills/state-management-advisor"
       ]
     },
     {
@@ -327,14 +327,14 @@
       "category": "API Development",
       "strict": false,
       "commands": [
-        "commands/generate-openapi.md"
+        "./commands/generate-openapi.md"
       ],
       "agents": [
-        "agents/api-architect.md"
+        "./agents/api-architect.md"
       ],
       "skills": [
-        "skills/rest-api-designer",
-        "skills/api-documentation-generator"
+        "./skills/rest-api-designer",
+        "./skills/api-documentation-generator"
       ]
     },
     {
@@ -363,14 +363,14 @@
       "category": "Database Development",
       "strict": false,
       "commands": [
-        "commands/analyze-query.md"
+        "./commands/analyze-query.md"
       ],
       "agents": [
-        "agents/database-architect.md"
+        "./agents/database-architect.md"
       ],
       "skills": [
-        "skills/schema-designer",
-        "skills/query-optimizer"
+        "./skills/schema-designer",
+        "./skills/query-optimizer"
       ]
     },
     {
@@ -399,14 +399,14 @@
       "category": "Cloud Infrastructure",
       "strict": false,
       "commands": [
-        "commands/estimate-cost.md"
+        "./commands/estimate-cost.md"
       ],
       "agents": [
-        "agents/aws-architect.md"
+        "./agents/aws-architect.md"
       ],
       "skills": [
-        "skills/aws-cost-optimizer",
-        "skills/security-group-analyzer"
+        "./skills/aws-cost-optimizer",
+        "./skills/security-group-analyzer"
       ]
     },
     {
@@ -435,15 +435,15 @@
       "category": "Frontend Development",
       "strict": false,
       "commands": [
-        "commands/audit-accessibility.md"
+        "./commands/audit-accessibility.md"
       ],
       "agents": [
-        "agents/frontend-lead.md"
+        "./agents/frontend-lead.md"
       ],
       "skills": [
-        "skills/accessibility-checker",
-        "skills/performance-optimizer",
-        "skills/responsive-design-advisor"
+        "./skills/accessibility-checker",
+        "./skills/performance-optimizer",
+        "./skills/responsive-design-advisor"
       ]
     },
     {
@@ -472,14 +472,14 @@
       "category": "Backend Development",
       "strict": false,
       "commands": [
-        "commands/create-migration.md"
+        "./commands/create-migration.md"
       ],
       "agents": [
-        "agents/backend-lead.md"
+        "./agents/backend-lead.md"
       ],
       "skills": [
-        "skills/api-security-checker",
-        "skills/database-migration-helper"
+        "./skills/api-security-checker",
+        "./skills/database-migration-helper"
       ]
     },
     {
@@ -508,14 +508,14 @@
       "category": "DevOps",
       "strict": false,
       "commands": [
-        "commands/check-pipeline.md"
+        "./commands/check-pipeline.md"
       ],
       "agents": [
-        "agents/devops-lead.md"
+        "./agents/devops-lead.md"
       ],
       "skills": [
-        "skills/ci-cd-optimizer",
-        "skills/infrastructure-monitor"
+        "./skills/ci-cd-optimizer",
+        "./skills/infrastructure-monitor"
       ]
     },
     {
@@ -544,14 +544,14 @@
       "category": "Data Engineering",
       "strict": false,
       "commands": [
-        "commands/validate-pipeline.md"
+        "./commands/validate-pipeline.md"
       ],
       "agents": [
-        "agents/data-architect.md"
+        "./agents/data-architect.md"
       ],
       "skills": [
-        "skills/etl-designer",
-        "skills/data-quality-checker"
+        "./skills/etl-designer",
+        "./skills/data-quality-checker"
       ]
     },
     {
@@ -580,15 +580,15 @@
       "category": "Security",
       "strict": false,
       "commands": [
-        "commands/security-scan.md"
+        "./commands/security-scan.md"
       ],
       "agents": [
-        "agents/security-architect.md"
+        "./agents/security-architect.md"
       ],
       "skills": [
-        "skills/vulnerability-scanner",
-        "skills/secrets-detector",
-        "skills/dependency-audit"
+        "./skills/vulnerability-scanner",
+        "./skills/secrets-detector",
+        "./skills/dependency-audit"
       ]
     },
     {
@@ -617,15 +617,15 @@
       "category": "Documentation",
       "strict": false,
       "commands": [
-        "commands/generate-docs.md"
+        "./commands/generate-docs.md"
       ],
       "agents": [
-        "agents/docs-architect.md"
+        "./agents/docs-architect.md"
       ],
       "skills": [
-        "skills/readme-generator",
-        "skills/api-docs-generator",
-        "skills/changelog-manager"
+        "./skills/readme-generator",
+        "./skills/api-docs-generator",
+        "./skills/changelog-manager"
       ]
     },
     {
@@ -654,15 +654,15 @@
       "category": "Code Quality",
       "strict": false,
       "commands": [
-        "commands/quality-check.md"
+        "./commands/quality-check.md"
       ],
       "agents": [
-        "agents/quality-architect.md"
+        "./agents/quality-architect.md"
       ],
       "skills": [
-        "skills/code-smell-detector",
-        "skills/complexity-analyzer",
-        "skills/refactoring-advisor"
+        "./skills/code-smell-detector",
+        "./skills/complexity-analyzer",
+        "./skills/refactoring-advisor"
       ]
     },
     {
@@ -691,14 +691,14 @@
       "category": "Web Server",
       "strict": false,
       "commands": [
-        "commands/optimize-nginx.md"
+        "./commands/optimize-nginx.md"
       ],
       "agents": [
-        "agents/config-architect.md"
+        "./agents/config-architect.md"
       ],
       "skills": [
-        "skills/load-balancer",
-        "skills/ssl-helper"
+        "./skills/load-balancer",
+        "./skills/ssl-helper"
       ]
     },
     {
@@ -727,14 +727,14 @@
       "category": "Infrastructure as Code",
       "strict": false,
       "commands": [
-        "commands/validate-template.md"
+        "./commands/validate-template.md"
       ],
       "agents": [
-        "agents/cfn-architect.md"
+        "./agents/cfn-architect.md"
       ],
       "skills": [
-        "skills/stack-designer",
-        "skills/template-validator"
+        "./skills/stack-designer",
+        "./skills/template-validator"
       ]
     },
     {
@@ -763,14 +763,14 @@
       "category": "Configuration Management",
       "strict": false,
       "commands": [
-        "commands/lint-playbook.md"
+        "./commands/lint-playbook.md"
       ],
       "agents": [
-        "agents/playbook-architect.md"
+        "./agents/playbook-architect.md"
       ],
       "skills": [
-        "skills/role-builder",
-        "skills/inventory-manager"
+        "./skills/role-builder",
+        "./skills/inventory-manager"
       ]
     },
     {
@@ -799,14 +799,14 @@
       "category": "Cloud Infrastructure",
       "strict": false,
       "commands": [
-        "commands/estimate-azure-cost.md"
+        "./commands/estimate-azure-cost.md"
       ],
       "agents": [
-        "agents/azure-architect.md"
+        "./agents/azure-architect.md"
       ],
       "skills": [
-        "skills/azure-cost-optimizer",
-        "skills/arm-template-helper"
+        "./skills/azure-cost-optimizer",
+        "./skills/arm-template-helper"
       ]
     },
     {
@@ -835,14 +835,14 @@
       "category": "Cloud Infrastructure",
       "strict": false,
       "commands": [
-        "commands/estimate-gcp-cost.md"
+        "./commands/estimate-gcp-cost.md"
       ],
       "agents": [
-        "agents/gcp-architect.md"
+        "./agents/gcp-architect.md"
       ],
       "skills": [
-        "skills/gcp-cost-optimizer",
-        "skills/cloud-build-helper"
+        "./skills/gcp-cost-optimizer",
+        "./skills/cloud-build-helper"
       ]
     },
     {
@@ -871,14 +871,14 @@
       "category": "Data Engineering",
       "strict": false,
       "commands": [
-        "commands/validate-dbt.md"
+        "./commands/validate-dbt.md"
       ],
       "agents": [
-        "agents/dbt-architect.md"
+        "./agents/dbt-architect.md"
       ],
       "skills": [
-        "skills/model-builder",
-        "skills/test-generator"
+        "./skills/model-builder",
+        "./skills/test-generator"
       ]
     },
     {
@@ -907,14 +907,14 @@
       "category": "CI/CD",
       "strict": false,
       "commands": [
-        "commands/optimize-workflow.md"
+        "./commands/optimize-workflow.md"
       ],
       "agents": [
-        "agents/workflow-architect.md"
+        "./agents/workflow-architect.md"
       ],
       "skills": [
-        "skills/action-builder",
-        "skills/matrix-optimizer"
+        "./skills/action-builder",
+        "./skills/matrix-optimizer"
       ]
     },
     {
@@ -943,14 +943,14 @@
       "category": "Mobile Development",
       "strict": false,
       "commands": [
-        "commands/create-native-module.md"
+        "./commands/create-native-module.md"
       ],
       "agents": [
-        "agents/rn-architect.md"
+        "./agents/rn-architect.md"
       ],
       "skills": [
-        "skills/native-module-helper",
-        "skills/performance-optimizer"
+        "./skills/native-module-helper",
+        "./skills/performance-optimizer"
       ]
     },
     {
@@ -979,14 +979,14 @@
       "category": "Web Framework",
       "strict": false,
       "commands": [
-        "commands/create-page.md"
+        "./commands/create-page.md"
       ],
       "agents": [
-        "agents/nextjs-expert.md"
+        "./agents/nextjs-expert.md"
       ],
       "skills": [
-        "skills/ssr-ssg-advisor",
-        "skills/app-router-helper"
+        "./skills/ssr-ssg-advisor",
+        "./skills/app-router-helper"
       ]
     },
     {
@@ -1015,14 +1015,14 @@
       "category": "Programming Language",
       "strict": false,
       "commands": [
-        "commands/check-go.md"
+        "./commands/check-go.md"
       ],
       "agents": [
-        "agents/go-expert.md"
+        "./agents/go-expert.md"
       ],
       "skills": [
-        "skills/goroutine-patterns",
-        "skills/error-handling"
+        "./skills/goroutine-patterns",
+        "./skills/error-handling"
       ]
     }
   ]
